@@ -20,9 +20,8 @@ int findPaymentsSum(CUSTOMER* c, int num_of_pamyments); //this function should f
 int findSalariesSum(EMPLOYEE e[], int size);            //this function should find the sum of salaries in a given array of employees
 
 int main(){
-    
     // TestCase-1
-    //printf("The sum is: %d\n",sumOfPowers(3));
+    printf("The sum is: %d\n",sumOfPowers(3));
 
     // TestCase-2
     /*
@@ -39,6 +38,7 @@ int main(){
     // TestCase-3
     /*
     CUSTOMER* cstmr=malloc(sizeof(CUSTOMER));
+    
     cstmr->id=101;
     cstmr->age=30;
     cstmr->payments[0]=1500;
@@ -46,14 +46,17 @@ int main(){
     cstmr->payments[2]=2000;
     cstmr->payments[3]=500;
     cstmr->payments[4]=300;
+
+
+    
     printf("The sum of all payments is: %d\n",findPaymentsSum(cstmr, 5));
     */
 
     // TestCase-4
-    
+    /*
     EMPLOYEE e1={"jame",2000}, e2={"sara",3000}, e3={"alic",2500}, e4={"mark",3200};
     EMPLOYEE employees[4]={e1,e2,e3,e4};
     printf("The sum of salaries is: %d\n",findSalariesSum(employees,4));
-    
-
+    */
+    return 0;
 }
